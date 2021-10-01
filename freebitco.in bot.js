@@ -60,7 +60,7 @@ reward.select = function() {
             }
 
         if ($('#bonus_span_fp_bonus').length === 0)
-            if (reward.points >= 320)
+            if (reward.points > 320)
                 RedeemRPProduct('fp_bonus_50');
             // else if (reward.points >= 2800) {
             //     RedeemRPProduct('fp_bonus_500');
