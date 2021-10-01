@@ -54,7 +54,7 @@ reward.select = function() {
                 console.log("waiting for points 60");
                 RedeemRPProduct('free_points_1');
             }
-        else if (reward.points < 600) {
+        else if (reward.points > 119) {
                 console.log("waiting for points 120");
                 RedeemRPProduct('free_points_10');
             }
